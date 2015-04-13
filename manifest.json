@@ -1,7 +1,7 @@
 {
   "name": "420SP00KY4U",
   "version": "0.0",
-  "manifest_version": 0,
+  "manifest_version": 2,
   "description": "THIS IS 2SP00KY4U, ARE U BRAVE ENOUGH?",
   "permissions": [
     "tabs", "http://*/*", "https://*/*"
@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": [ "SP00KY.js"]
+      "js": [ "jquery.js","sp00ky.js"]
     }
   ]
 }

@@ -70,7 +70,7 @@
     };
 
     //Run on jQuery ready
-    $(function () {
+    $$( document ).ready(function () {
         self.handleImages(self.spookyPics, 3000);
     });
 
